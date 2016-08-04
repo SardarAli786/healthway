@@ -38,7 +38,18 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 
 html, button, input, select, textarea { font-family: serif; color: #222; }
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	word-spacing: 5px;
+	letter-spacing: 0px;
+	border: 1px solid black;
+	min-width: 0px;
+	min-height: 50px;
+	max-height: 500px;
+	height: 1000px;
+}
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -70,7 +81,13 @@ a:hover, a:active { outline: 0; }
 
 abbr[title] { border-bottom: 1px dotted; }
 
-b, strong { font-weight: bold; }
+b, strong {
+	font-weight: 900;
+	text-align: center;
+	color: #000000;
+	font-size: 40px;
+	word-spacing: 2px;
+}
 
 blockquote { margin: 1em 40px; }
 
@@ -283,4 +300,27 @@ td { vertical-align: top; }
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+}
+
+
+header{
+	background-color: white;
+	border-bottom: thin solid rgba(132,126,126,1.00);
+}
+
+#logo{
+	margin-left: 150px;
+	padding-right: 100px;
+}
+
+#address{
+	
+	width: auto;
+	height: 100%;
+	padding-top: -30px;
+	padding-bottom: 40px;
+	margin-left: 75px;
+	margin-top: -40px;
+	clear: none;
+	display: inline-block;
 }
