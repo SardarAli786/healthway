@@ -44,7 +44,7 @@ body {
 	line-height: 1.4;
 	word-spacing: 5px;
 	letter-spacing: 0px;
-	border: 1px solid black;
+	border: 1px solid YELLOW;
 	min-width: 0px;
 	min-height: 50px;
 	max-height: 500px;
@@ -306,6 +306,10 @@ td { vertical-align: top; }
 header{
 	background-color: white;
 	border-bottom: thin solid rgba(132,126,126,1.00);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	
 }
 
 #logo{
@@ -319,8 +323,16 @@ header{
 	height: 100%;
 	padding-top: -30px;
 	padding-bottom: 40px;
-	margin-left: 75px;
+	margin-left: 85px;
 	margin-top: -40px;
 	clear: none;
 	display: inline-block;
+	text-align:center;
+}
+#hdr{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	position:relative;
+	width:100%;
 }
