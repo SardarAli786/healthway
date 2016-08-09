@@ -44,7 +44,7 @@ body {
 	line-height: 1.4;
 	word-spacing: 5px;
 	letter-spacing: 0px;
-	border: 1px solid YELLOW;
+	/*border: 1px solid YELLOW;*/
 	min-width: 0px;
 	min-height: 50px;
 	max-height: 1500px;
@@ -305,7 +305,7 @@ td { vertical-align: top; }
 
 header{
 	background-color: white;
-	border-bottom: thin solid rgba(132,126,126,1.00);
+	/*border-bottom: thin solid rgba(132,126,126,1.00);*/
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;

@@ -20,7 +20,39 @@ img, object, embed, video {
 	
 }
 
+#news{
+	
+	display:inline-block;
+	float:left;
+	width: 33%;
+	
+}
+
+#services{
+	
+	display:inline-block;
+	float:left;
+}
+
+#timings{
+	
+	display: inline-block;
+	width:33%;
+	float:left;
+	margin-left:15px;
+}
+
 #updates{
+	padding-bottom:50px;
+	
+	width:100%;
+	height:30%;
+	position:relative;
+	display:block;
+	margin-top:500px;
+	font-size:20px;
+}
+/*#updates{
 	
 	border: 2px solid pink;
 	width:100%;
@@ -29,6 +61,35 @@ img, object, embed, video {
 	display:block;
 	margin-top:500px;
 }
+#clm{
+	
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	width:33%;
+	height:20%;
+	
+	margin:0px;
+}
+
+#clmm{
+	
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	width:33%;
+	height:20%;
+	
+	margin:0px;
+}
+
+#clmmm{
+	
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	width:33%;
+	height:20%;
+	
+	margin:0px;
+}*/
 /*
 	Dreamweaver Fluid Grid Properties
 	----------------------------------
@@ -138,20 +199,3 @@ margin-left: 0;
 display: none;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
