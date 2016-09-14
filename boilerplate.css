@@ -85,6 +85,11 @@ padding-top:8px;
 padding-bottom:2px;
 
 }
+
+#logohmc{
+	left:10px;
+	}
+	
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
