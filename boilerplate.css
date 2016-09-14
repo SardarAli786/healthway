@@ -65,7 +65,7 @@ body {
 	min-height:1600px;
 	margin-left:auto;
 	margin-right:auto;
-	text-align: justify;
+	text-align:center;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
 	/*border: 5px solid YELLOW;*/
@@ -86,10 +86,31 @@ padding-bottom:2px;
 
 }
 
+
 #logohmc{
 	left:10px;
 	}
 	
+	footer{
+color:white;
+text-align:center;	
+display:block;
+clear:both;
+}
+/*	
+=======
+footer{
+color:white;
+text-align:center;	
+display:block;
+clear:both;
+}
+
+#logohmc{
+left: -126px;	
+position: relative;
+}
+>>>>>>> f7641b6beaeabbda6506eb34f93724ef01598fbd*/
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
@@ -107,8 +128,8 @@ padding-bottom:2px;
 
 a { color: Red; }
 a:visited { color: white; }
-a:hover { color: Red; font-size:16px;outline: thick dashed }
-a:focus { outline: thick dashed }
+a:hover { color: Red; font-size:16px;}
+/*a:focus { outline: thick dashed }*/
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 5; }
@@ -361,5 +382,9 @@ td { vertical-align: top; }
 	padding-right:20px;
 	padding-left:20px;
 	font-size:20px;
+	color:white;
 }
 
+
+/*nav1{color:Yellow;}
+*/
