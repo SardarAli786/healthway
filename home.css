@@ -88,6 +88,10 @@ height:260px;
 	margin-top:500px;
 	font-size:20px;
 }
+
+#main{
+
+}
 /*#updates{
 	
 	border: 2px solid pink;
@@ -139,7 +143,7 @@ height:260px;
 	
 	and Golden Grid System by Joni Korpi
 	http://goldengridsystem.com/
-*/
+
 
 .fluid {
 	clear: both;
@@ -157,7 +161,7 @@ height:260px;
     padding:0;        
 }
 
-/* Mobile Layout: 480px and below. */
+/* Mobile Layout: 480px and below. 
   
 .gridContainer {
 	margin-left: auto;
@@ -178,7 +182,7 @@ margin-left: 0;
 display: none;
 }
 
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. 
 
 @media only screen and (min-width: 481px) {
 
@@ -200,7 +204,7 @@ display: none;
 }
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. 
 
 @media only screen and (min-width: 769px) {
 
@@ -236,3 +240,4 @@ display: none;
 }
 }
 
+*/

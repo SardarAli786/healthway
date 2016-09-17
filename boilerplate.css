@@ -62,7 +62,7 @@ body {
 	width:98%;
 	display:block;
 	min-width:500px;
-	min-height:1600px;
+	min-height:100px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -91,7 +91,7 @@ padding-bottom:2px;
 	left:10px;
 	}
 	
-	footer{
+footer{
 color:white;
 text-align:center;	
 display:block;
